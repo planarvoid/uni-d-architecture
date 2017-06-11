@@ -1,3 +1,3 @@
 package cz.vojta.unidarchitecture
 
-class ViewError(throwable: Throwable)
+data class ViewError(val throwable: Throwable)
